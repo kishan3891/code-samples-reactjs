@@ -1,0 +1,24 @@
+import { makeThunkActionType } from "./actionTypes";
+
+export const sessionConstants = {
+    GETALL_SESSION_NOTES_REQUEST: "GETALL_SESSION_NOTES_REQUEST",
+    GETALL_SESSION_NOTES_SUCCESS: "GETALL_SESSION_NOTES_SUCCESS",
+    LOAD_SESSION_NOTES: makeThunkActionType("LOAD_SESSION_NOTES"),
+    LOAD_PAST_SESSION_NOTES: makeThunkActionType("LOAD_PAST_SESSION_NOTES"),
+    SET_ACTIVE_SESSION: "SET_ACTIVE_SESSION",
+
+    CLEAR_SESSION_NOTE: "CLEAR_SESSION_NOTE",
+    SAVE_SESSION_NOTES: makeThunkActionType("SAVE_SESSION_NOTES"),
+    GET_SESSION_FOR_DATE: makeThunkActionType("GET_SESSION_FOR_DATE"),
+    CHANGE_SESSION_STATUS: makeThunkActionType("CHANGE_SESSION_STATUS"),
+    SESSION_TYPE: {
+        CHAT_NOW: 2,
+        SCHEDULED: 1,
+    },
+    SESSION_STATUS: {
+        CONFIRMED: 1,
+        STARTED: 2,
+        ENDED: 3,
+        CANCELLED: 4,
+    },
+};

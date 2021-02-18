@@ -1,0 +1,112 @@
+@import "../App/variables";
+p,
+label {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.App {
+    color: #989795;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+    font-size: inherit;
+}
+
+.form-group {
+    label {
+        color: #000000;
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+}
+
+.login-form {
+    width: 100% !important;
+}
+.reset-email-text {
+    color: #989795;
+}
+.form-group {
+    p {
+        font-size: 12px;
+        color: #31353b;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+}
+
+.form-btm-content {
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 16px;
+}
+
+.user-name-left {
+    position: absolute;
+    left: 64px;
+    bottom: 49px;
+
+    font {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #ffffff;
+        display: block;
+        text-align: center;
+        line-height: 32px;
+        color: $purple-color;
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    span {
+        font-size: 16px;
+        color: #ffffff;
+        font-family: "Literata", serif;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    p {
+        font-size: 14px;
+        color: #d9d9d9;
+        font-family: "Red Hat Display", sans-serif;
+    }
+}
+
+.form-btm-content p a {
+    color: $purple-color !important;
+}
+
+.reset-password {
+    margin-top: 6px;
+
+    h3 {
+        color: #000000;
+        font-size: 30px;
+        font-family: "Literata", serif;
+        font-weight: 500;
+        margin-bottom: 21px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 500;
+        color: #000000;
+        margin-bottom: 30px;
+
+        a {
+            color: #989795;
+            font-weight: normal;
+        }
+    }
+
+    a {
+        color: $purple-color;
+        font-size: 14px;
+        font-weight: bold;
+    }
+}

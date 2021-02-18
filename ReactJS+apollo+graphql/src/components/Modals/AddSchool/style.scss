@@ -1,0 +1,158 @@
+@import "../../../containers/App/variables";
+.account-modal {
+    .ant-modal-close-x {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: $purple-color;
+        line-height: 34px;
+        color: #fff;
+        margin-top: 22px;
+        margin-right: 22px;
+        outline: none;
+    }
+
+    .ant-modal-content {
+        margin: 0 auto;
+        background: #f3f4f6;
+        border-radius: 10px;
+
+        h3 {
+            font-size: 24px;
+            color: #31353b;
+            font-family: "Literata", serif;
+            font-weight: 500;
+        }
+
+        .form-group {
+            .ant-select {
+                width: 100% !important;
+            }
+
+            .ant-select-arrow-icon {
+                svg {
+                    display: none;
+                }
+
+                :before {
+                    content: "\e900";
+                }
+            }
+
+            .row {
+                margin: 0px -2px;
+                margin-top: 10px;
+
+                .col-md-6,
+                .col-sm-12 {
+                    padding: 0px 2px;
+                }
+            }
+        }
+
+        .submit-btn[disabled] {
+            cursor: no-drop;
+        }
+
+        .submit-btn:not[disabled] {
+            background: $purple-color !important;
+        }
+
+        .send-invitation {
+            background: #fff;
+            margin: -24px;
+            padding: 16px;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        .modal-right-head {
+            margin-bottom: 32px;
+        }
+    }
+}
+
+.admin-dashboard {
+    .row {
+        margin: 0;
+    }
+}
+
+.add-school {
+    span {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+.left-upload-img {
+    .user-image {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    .upload-img {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-left: 15px;
+        font-weight: bold;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .form-group {
+        margin-bottom: 0 !important;
+    }
+}
+
+.ant-upload.ant-upload-select-picture-card {
+    width: 100%;
+    float: none;
+    display: block;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 5px;
+    &:hover {
+        border-color: $purple-color !important;
+    }
+}
+.ant-upload-picture-card-wrapper {
+    margin: 0 !important;
+}
+.form-control {
+    border-radius: 5px;
+}
+input#phone {
+    &:focus {
+        outline: 0;
+        border: 1px solid $purple-color;
+    }
+}
+.ant-upload.ant-upload-select-picture-card > .ant-upload {
+    display: block;
+    border: 0 !important;
+    border-radius: 5px;
+    text-align: left;
+    margin: 0;
+}
+
+.bootstrap-select.btn-group.show-tick
+    .dropdown-menu
+    li.selected
+    a
+    span.check-mark {
+    position: absolute;
+    display: inline-block;
+    left: 5px; //changed from right:15
+    margin-top: 5px;
+}
+
+.resources:focus {
+    border: 1px solid $purple-color;
+    border-radius: 5px;
+}

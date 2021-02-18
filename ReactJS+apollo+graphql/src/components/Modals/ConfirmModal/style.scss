@@ -1,0 +1,39 @@
+.disable-modal .btncancel {
+    color: #31353b !important;
+    font-weight: bold;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.disable-modal .modal-text {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+    margin: 13px 0px 32px 0px;
+}
+
+.disable-modal .ant-modal {
+    top: 40%;
+    padding-bottom: 0;
+    width: 100% !important;
+    max-width: 375px;
+    .disable-btn {
+        height: 61px;
+        line-height: 61px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        &:hover {
+            background: #b33131 !important;
+        }
+    }
+}
+
+.disable-modal .text-center {
+    margin-bottom: 0;
+}

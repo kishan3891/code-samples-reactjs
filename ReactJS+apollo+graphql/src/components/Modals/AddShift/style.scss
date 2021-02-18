@@ -1,0 +1,123 @@
+@import "../../../containers/App/variables";
+.account-modal {
+    .ant-modal-close-x {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: $purple-color;
+        line-height: 34px;
+        color: #fff;
+        margin-top: 22px;
+        margin-right: 22px;
+        outline: none;
+    }
+
+    .ant-modal-content {
+        margin: 0 auto;
+        background: #f3f4f6;
+        border-radius: 10px;
+
+        h3 {
+            font-size: 24px;
+            color: #31353b;
+            font-family: "Literata", serif;
+            font-weight: 500;
+            line-height: 36px;
+            margin: 0;
+        }
+
+        .form-group {
+            .ant-select {
+                width: 100% !important;
+            }
+
+            .ant-select-arrow-icon {
+                svg {
+                    display: none;
+                }
+
+                :before {
+                    content: "\e900";
+                }
+            }
+
+            .row {
+                margin: 0px -2px;
+                margin-top: 10px;
+
+                .col-md-6,
+                .col-sm-12 {
+                    padding: 0px 2px;
+                }
+            }
+        }
+
+        .submit-btn {
+            cursor: pointer;
+        }
+
+        .send-invitation {
+            background: #fff;
+            margin: -24px;
+            padding: 16px;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        .modal-right-head {
+            margin-bottom: 32px;
+        }
+    }
+}
+
+.admin-dashboard {
+    .row {
+        margin: 0;
+    }
+}
+
+.add-schedule {
+    height: 52.3vh;
+    &.add-schedule-without-details {
+        height: auto;
+        .send-invitation {
+            margin: -77px -24px !important;
+        }
+    }
+    .send-invitation {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+    .ant-picker {
+        display: block;
+        padding: 16px;
+        border-radius: 5px;
+        &.ant-date-picker-has-value {
+            .ant-picker-input > input {
+                color: #31353b;
+            }
+        }
+        .ant-picker-input > input {
+            line-height: 140%;
+            color: #d9d9d9;
+        }
+    }
+    .ant-select {
+        .ant-select-arrow {
+            display: inline-block !important;
+            right: 23px;
+            margin-top: -3px;
+            .anticon:not(.anticon-down) {
+                pointer-events: none;
+            }
+        }
+        .ant-select-selection__rendered,
+        .ant-select-selection-item {
+            background-image: none !important;
+            margin-right: 0 !important;
+        }
+        .ant-select-selector {
+            padding: 0 16px !important;
+        }
+    }
+}

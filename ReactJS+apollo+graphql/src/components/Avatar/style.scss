@@ -1,0 +1,43 @@
+.left-upload-img {
+    .upload-img {
+        background-color: #ffffff;
+        position: static;
+        width: 148px;
+        height: 31px;
+        right: 0px;
+        top: 16.5px;
+        background: #ffffff;
+        border: 1px solid #d9d9d9;
+        box-sizing: border-box;
+        border-radius: 5px;
+        color: #31353b;
+    }
+    .ant-upload {
+        border: none;
+        background: none;
+        max-width: 254px;
+    }
+}
+.profile-upload-img {
+    .ant-upload {
+        border: none;
+        background: none;
+        .ant-upload {
+            text-align: center !important;
+        }
+    }
+    .upload-img-box {
+        margin-top: 16px;
+        .upload-img {
+            margin-bottom: 10px;
+        }
+    }
+}
+.shool-upload {
+    .ant-upload {
+        max-width: 285px;
+    }
+    .upload-img-box {
+        margin-bottom: 0px;
+    }
+}

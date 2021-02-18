@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0102272727 0.00672 30 0.00672 30 20.832 0.0102272727 20.832"></polygon>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="yt_icon_mono_light" transform="translate(5.000000, 10.000000)">
+            <g id="Group-3">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M29.3730682,3.252984 C29.0280682,1.972488 28.0116477,0.964152 26.7207955,0.621936 C24.3813068,0 15,0 15,0 C15,0 5.61869318,0 3.27920455,0.621936 C1.98852273,0.964152 0.971931818,1.972488 0.626931818,3.252984 C0,5.573736 0,10.416 0,10.416 C0,10.416 0,15.258096 0.626931818,17.579184 C0.971931818,18.859512 1.98852273,19.867848 3.27920455,20.210232 C5.61869318,20.832 15,20.832 15,20.832 C15,20.832 24.3813068,20.832 26.7207955,20.210232 C28.0116477,19.867848 29.0280682,18.859512 29.3730682,17.579184 C30,15.258096 30,10.416 30,10.416 C30,10.416 30,5.573736 29.3730682,3.252984" id="Fill-1" fill="#4B4E51" mask="url(#mask-2)"></path>
+            </g>
+            <polyline id="Fill-4" fill="#FFFFFE" points="12 15 20 10.500172 12 6 12 15"></polyline>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,124 @@
+@import "../App/variables";
+p,
+label {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.App {
+    color: #989795;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+    font-size: inherit;
+}
+
+.form-group {
+    label {
+        color: #000000;
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+}
+
+.login-form {
+    width: 100% !important;
+}
+
+.form-group {
+    position: relative;
+
+    p {
+        font-size: 12px;
+        color: #31353b;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+    .form-control {
+        border: 1px solid #d9d9d9;
+    }
+    .form-control:focus {
+        border: 1px solid $purple-color;
+    }
+    .field-icon.toggle-password {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+        margin-top: 12px;
+    }
+}
+
+.error-password {
+    .field-icon.toggle-password {
+        margin-top: -8px;
+    }
+}
+
+.form-btm-content {
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 16px;
+}
+
+.user-name-left {
+    position: absolute;
+    left: 64px;
+    bottom: 49px;
+
+    font {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #ffffff;
+        display: block;
+        text-align: center;
+        line-height: 32px;
+        color: $purple-color;
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    span {
+        font-size: 16px;
+        color: #ffffff;
+        font-family: "Literata", serif;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    p {
+        font-size: 14px;
+        color: #d9d9d9;
+        font-family: "Red Hat Display", sans-serif;
+    }
+}
+
+.form-btm-content p a {
+    color: $purple-color !important;
+}
+
+.account-step-set {
+    display: block;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.login-page {
+    .form-group {
+        margin-bottom: 23px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    div[align="right"] {
+        margin-top: -9px;
+    }
+}

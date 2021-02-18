@@ -1,0 +1,71 @@
+.payment-toggle {
+  width: 100%;
+  height: 69px;
+  background: #e5943b;
+}
+
+.payment-button {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 3px 3px 3px 3px;
+  margin: -1px 10px 8px -42px;
+  width: 89%;
+}
+
+.payment-slide-text {
+  font-size: 14px;
+  font-family: 'Red Hat Display';
+  padding: 16px 0px 0px 16px;
+  color: #ffffff;
+  float: left;
+}
+
+.payment-slide-subtitle {
+  font-size: 12px;
+}
+
+.payment-btn-section {
+  text-align: right;
+  float: right;
+  padding-top: 16px;
+  padding-right: 16px;
+
+  .white-btn {
+    border: none;
+    color: #31353B;
+  }
+}
+
+.home-page {
+  h2 {
+    font-size: 1.5em;
+  }
+
+  section {
+    margin: 3em auto;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &.centered {
+      text-align: center;
+    }
+  }
+
+  form {
+    margin-bottom: 1em;
+
+    input {
+      outline: none;
+      border-bottom: 1px dotted #999;
+    }
+  }
+
+  span.at-prefix {
+    color: black;
+    margin-left: 0.4em;
+  }
+}

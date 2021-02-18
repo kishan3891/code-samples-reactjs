@@ -1,0 +1,65 @@
+@import "../../../containers/App/variables";
+.alert-modal .modal-text {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+    margin: 13px 0px 32px 0px;
+
+    a {
+        color: $purple-color;
+        margin-left: 3px;
+        font-weight: 500;
+    }
+}
+
+.alert-modal .ant-modal {
+    top: 40%;
+    padding-bottom: 0;
+    width: 100% !important;
+    max-width: 425px;
+
+    .disable-btn {
+        height: 61px;
+        line-height: 61px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        &:hover {
+            background: #b33131 !important;
+        }
+    }
+    .sos-phone-warpper > div {
+        display: inline;
+    }
+    .sos-phone-warpper {
+        .sos-phone-text,
+        .sos-phone-number a {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 140%;
+            color: #31353b;
+        }
+        .sos-phone-number a {
+            color: $purple-color;
+            &:hover {
+                color: $purple-color;
+            }
+        }
+    }
+}
+
+.alert-modal .text-center {
+    margin-bottom: 0;
+}
+
+.alert-header {
+    h3 {
+        color: #000;
+        font-family: "Literata", serif;
+        font-size: 24px;
+        font-weight: 500;
+    }
+}

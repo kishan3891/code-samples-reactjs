@@ -1,0 +1,206 @@
+@import "../../../containers/App/variables";
+.session-modal {
+    .ant-modal-body .session-inner {
+        border-right: 1px solid #e4e4e4;
+        position: relative;
+    }
+
+    .section-head {
+        padding: 16px;
+        padding-top: 24px;
+        border-bottom: 1px solid #e4e4e4;
+    }
+
+    .section-head h3 {
+        font-family: "Literata", serif;
+        font-weight: 500;
+        font-size: 24px;
+        color: #31353b;
+        margin-bottom: 10px;
+    }
+
+    .section-head p {
+        font-family: Red Hat Display;
+        font-weight: bold;
+        font-size: 14px;
+        color: #31353b;
+        line-height: 130%;
+        margin-bottom: 0px;
+    }
+
+    .section-head span {
+        display: block;
+        color: #31353b;
+        font-weight: 500;
+        line-height: 140%;
+        font-family: Red Hat Display;
+    }
+
+    .scheduled-outer {
+        padding: 33px 0px 15px;
+    }
+
+    .scheduled-outer h2 {
+        padding-left: 16px;
+        color: #31353b;
+        font-size: 12px;
+        font-family: Red Hat Display;
+        line-height: 140%;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+
+    .scheduled-outer h2 img {
+        margin-right: 10px;
+    }
+
+    .scheduled-outer ul {
+        float: left;
+        width: 100%;
+    }
+
+    .scheduled-outer ul li {
+        display: block;
+        color: #31353b;
+        line-height: 140%;
+        font-family: "Literata", serif;
+        font-size: 16px;
+        font-weight: 500;
+        float: left;
+        width: 100%;
+        cursor: pointer;
+        border-bottom: none;
+        position: relative;
+    }
+
+    .scheduled-outer ul li:after {
+        position: absolute;
+        left: 18px;
+        bottom: 0;
+        right: 0;
+        height: 1px;
+        background: #e4e4e4;
+        background-size: 100% 100%;
+        content: "";
+    }
+
+    .ant-modal {
+        float: right;
+        right: 20px;
+        width: 100% !important;
+        // height: 668px;
+    }
+
+    .scheduled-outer ul li:hover {
+        background: #f3f1f9;
+    }
+
+    .scheduled-outer ul li span {
+        display: block;
+        font-weight: 500;
+        font-family: Red Hat Display;
+        font-size: 12px;
+        line-height: 140%;
+        margin-top: 5px;
+        color: #31353b;
+        opacity: 0.8;
+    }
+
+    .scheduled-outer ul li img {
+        float: left;
+        margin-right: 15px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .modal-right-outer {
+        min-width: 70%;
+        max-width: 100%;
+        float: left;
+        background: #f3f4f6;
+        width: 100%;
+        height: 100%;
+    }
+
+    .modal-right-head {
+        padding: 24px 16px 18px 16px;
+        background: #fff;
+        border-bottom: 1px solid #e4e4e4;
+    }
+
+    .modal-right-head h3 {
+        font-family: "Literata", serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 140%;
+        color: #31353b;
+        margin-bottom: 5px;
+    }
+
+    .modal-right-head p {
+        font-weight: 500;
+        font-family: Red Hat Display;
+        color: #989795;
+        line-height: 140%;
+        font-size: 14px;
+        margin-bottom: 26px;
+    }
+
+    .leave-shift {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 16px;
+    }
+
+    .leave-shift a {
+        display: block;
+        background: #eb4141;
+        border-radius: 5px;
+        width: 100%;
+        font-family: Red Hat Display;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 160%;
+        text-align: center;
+        color: #ffffff;
+        padding: 17px 0;
+
+        &:hover {
+            background: #b33131;
+        }
+    }
+
+    .ant-modal-close-x {
+        width: 32px !important;
+        height: 32px !important;
+        border-radius: 50% !important;
+        background: $purple-color !important;
+        line-height: 34px !important;
+        color: #fff !important;
+        margin-top: 22px !important;
+        margin-right: 22px !important;
+        outline: none !important;
+    }
+
+    /*session page*/
+    .main-right-outer {
+        width: 100%;
+        float: left;
+    }
+}
+
+.ant-select-dropdown-menu-item,
+.ant-select-selection-selected-value,
+.ant-select-item-option {
+    font-weight: 500;
+    color: #cacaca;
+    font-size: 16px;
+}
+
+.ant-select-selection-selected-value {
+    color: #31353b;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-customize-black" transform="translate(15.000000, 15.000000)" stroke="#000000" stroke-width="0.7">
+            <path d="M18.9546,21.2231 L17.6465,22.5016" id="Path"></path>
+            <path d="M24.8835,24.8403 L22.4609,27.2079" id="Path"></path>
+            <polygon id="Path" points="20.0171 13.7076 14.3301 19.2656 25.3136 30 31.0007 24.442"></polygon>
+            <path d="M5.99863,0 L0.31055,5.55906 L8.00449,13.0785 L9.3126,11.8 L8.00449,13.0785 L10.5433,15.5597 L16.2314,10.0006 L5.99863,0 Z M3.18851,8.37173 L5.61103,6.00416 L3.18851,8.37173 Z" id="Shape"></path>
+            <polyline id="Path" points="20.0193 13.7036 29.8644 4.08179 26.0853 0.37891 16.2305 10.0102"></polyline>
+            <polyline id="Path" points="10.5428 15.5693 2.25781 23.6664 6.04664 27.3598 14.3317 19.2627"></polyline>
+            <path d="M0.92969,27.1229 C1.27853,27.246 1.60799,27.4449 1.88901,27.7195 C2.17002,27.9941 2.37351,28.3161 2.49948,28.657 L6.04606,27.3596 L2.25723,23.6567 L0.92969,27.1229 Z" id="Path"></path>
+            <path d="M14.332,19.2627 L20.0201,13.7036" id="Path"></path>
+            <path d="M16.2311,10.0103 L10.543,15.5693" id="Path"></path>
+            <path d="M0.93025,27.123 L0,29.5759 L2.50974,28.6572 C2.38376,28.3163 2.18027,27.9943 1.89926,27.7197 C1.60856,27.4545 1.27909,27.2556 0.93025,27.123 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

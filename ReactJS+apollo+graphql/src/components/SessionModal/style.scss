@@ -1,0 +1,252 @@
+@import "../../containers/App/variables";
+.session-modal {
+    .ant-modal-content {
+        height: 96%;
+    }
+
+    .ant-modal-body {
+        width: 100%;
+        background: #fff;
+        padding: 0 !important;
+        border-radius: 12px;
+        overflow: hidden;
+        height: 100%;
+        float: left;
+        display: flex;
+    }
+
+    .ant-modal-content {
+        border-radius: 12px;
+    }
+
+    .ant-modal-body .session-inner {
+        border-right: 1px solid #e4e4e4;
+        position: relative;
+    }
+
+    .section-head {
+        padding: 16px;
+        padding-top: 24px;
+        border-bottom: 1px solid #e4e4e4;
+    }
+
+    .section-head h3 {
+        font-family: "Literata", serif;
+        font-weight: 500;
+        font-size: 24px;
+        color: #31353b;
+        margin-bottom: 10px;
+        padding: 0;
+        border: none;
+    }
+
+    .section-head p {
+        font-family: Red Hat Display;
+        font-weight: bold;
+        font-size: 14px;
+        color: #31353b;
+        line-height: 130%;
+        margin-bottom: 0px;
+    }
+
+    .section-head span {
+        display: block;
+        color: #31353b;
+        font-weight: 500;
+        line-height: 140%;
+        font-family: Red Hat Display;
+    }
+
+    .scheduled-outer {
+        padding: 33px 0px 15px;
+    }
+
+    .scheduled-outer h2 {
+        padding-left: 16px;
+        color: #31353b;
+        font-size: 12px;
+        font-family: Red Hat Display;
+        line-height: 140%;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+
+    .scheduled-outer h2 img {
+        margin-right: 10px;
+    }
+
+    .scheduled-outer ul {
+        float: left;
+        width: 100%;
+        height: 500px;
+        overflow: auto;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    .scheduled-outer ul li {
+        display: block;
+        color: #31353b;
+        line-height: 140%;
+        font-family: "Literata", serif;
+        font-size: 16px;
+        font-weight: 500;
+        float: left;
+        width: 100%;
+        cursor: pointer;
+        border-bottom: none;
+        position: relative;
+    }
+
+    .scheduled-outer ul li:after {
+        position: absolute;
+        left: 18px;
+        bottom: 0;
+        right: 0;
+        height: 1px;
+        background: #e4e4e4;
+        background-size: 100% 100%;
+        content: "";
+    }
+
+    .ant-modal {
+        margin: 0 auto;
+        width: 100% !important;
+        // height: 668px;
+    }
+
+    .session-inner {
+        height: 100% !important;
+    }
+
+    .scheduled-outer ul li:hover {
+        background: #f3f1f9;
+    }
+
+    .scheduled-outer ul li span {
+        display: block;
+        font-weight: 500;
+        font-family: Red Hat Display;
+        font-size: 12px;
+        line-height: 140%;
+        margin-top: 5px;
+        color: #31353b;
+        opacity: 0.8;
+    }
+
+    .scheduled-outer ul li img {
+        float: left;
+        margin-right: 15px;
+        margin-top: -5px;
+    }
+
+    .modal-right-outer {
+        min-width: 70%;
+        max-width: 100%;
+        float: left;
+        background: #f3f4f6;
+        width: 100%;
+        height: 100%;
+    }
+
+    .modal-right-head {
+        padding: 24px 16px 18px 16px;
+        background: #fff;
+        border-bottom: 1px solid #e4e4e4;
+    }
+
+    .modal-right-head h3 {
+        font-family: "Literata", serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 140%;
+        color: #31353b;
+        margin-bottom: 5px;
+    }
+
+    .modal-right-head p {
+        font-weight: 500;
+        font-family: Red Hat Display;
+        color: #989795;
+        line-height: 140%;
+        font-size: 14px;
+        margin-bottom: 26px;
+    }
+
+    .leave-shift {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 16px;
+    }
+
+    .leave-shift a {
+        display: block;
+        background: #eb4141;
+        border-radius: 5px;
+        width: 100%;
+        font-family: Red Hat Display;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 160%;
+        text-align: center;
+        color: #ffffff;
+        padding: 17px 0;
+    }
+
+    .ant-modal-close-x {
+        width: 32px !important;
+        height: 32px !important;
+        border-radius: 50% !important;
+        background: $purple-color !important;
+        line-height: 34px !important;
+        color: #fff !important;
+        margin-top: 22px !important;
+        margin-right: 22px !important;
+        outline: none !important;
+    }
+
+    /*session page*/
+    .main-right-outer {
+        width: 100%;
+        float: left;
+    }
+}
+
+.ant-modal-root .session-modal {
+    .ant-tabs-nav-list {
+        margin-left: 20px !important;
+    }
+
+    // .ant-tabs-tabpane{
+    //   padding-left: 20px;
+    // }
+}
+.scheduled-outer ul li.active {
+    background: #f3f1f9 !important ;
+    border-right: 1px solid #6b00aa;
+}
+
+li.link-wrapper > a.active {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: blue;
+}
+
+.ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-bottom > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-bottom > div > .ant-tabs-nav .ant-tabs-ink-bar {
+    bottom: 1px !important;
+}
+.ant-modal-close:focus,
+.ant-modal-close:hover {
+    outline: none;
+}
+.scheduled-outer .scheduled-session-list {
+    height: 370px !important;
+}

@@ -1,0 +1,82 @@
+@import "../../../containers/App/variables";
+.account-modal {
+    .ant-modal-close-x {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: $purple-color;
+        line-height: 34px;
+        color: #fff;
+        margin-top: 22px;
+        margin-right: 22px;
+        outline: none;
+    }
+
+    .ant-modal-content {
+        margin: 0 auto;
+        background: #f3f4f6;
+        border-radius: 10px;
+
+        h3 {
+            font-size: 24px;
+            color: #31353b;
+            font-family: "Literata", serif;
+            font-weight: 500;
+        }
+
+        .form-group {
+            .ant-select {
+                width: 100% !important;
+            }
+
+            .ant-select-arrow-icon {
+                svg {
+                    display: none;
+                }
+
+                :before {
+                    content: "\e900";
+                }
+            }
+
+            .row {
+                margin: 0px -2px;
+                margin-top: 10px;
+
+                .col-md-6,
+                .col-sm-12 {
+                    padding: 0px 2px;
+                }
+            }
+        }
+
+        .submit-btn {
+            cursor: pointer;
+        }
+
+        .send-invitation {
+            background: #fff;
+            margin: -24px;
+            padding: 16px;
+            border-radius: 0px 0px 10px 10px;
+            position: relative;
+            z-index: 9;
+        }
+
+        .modal-right-head {
+            margin-bottom: 32px;
+        }
+    }
+}
+
+.admin-dashboard {
+    .row {
+        margin: 0;
+    }
+}
+
+.add-school {
+    .ScrollbarsCustom {
+        margin-bottom: 20px;
+    }
+}

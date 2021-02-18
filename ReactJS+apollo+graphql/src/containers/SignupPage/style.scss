@@ -1,0 +1,102 @@
+@import "../App/variables";
+p,
+label {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.App {
+    color: #989795;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+    font-size: inherit;
+}
+
+.form-group {
+    label {
+        color: #000000;
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+}
+
+.form-group {
+    p {
+        font-size: 12px;
+        color: #31353b;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+}
+
+.form-btm-content {
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 16px;
+}
+
+.user-name-left {
+    position: absolute;
+    left: 64px;
+    bottom: 49px;
+
+    font {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #ffffff;
+        display: block;
+        text-align: center;
+        line-height: 32px;
+        color: $purple-color;
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    span {
+        font-size: 16px;
+        color: #ffffff;
+        font-family: "Literata", serif;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    p {
+        font-size: 14px;
+        color: #d9d9d9;
+        font-family: "Red Hat Display", sans-serif;
+    }
+}
+
+.sign-up {
+    .signup-email {
+        color: rgba(0, 0, 0, 0.2);
+        background-color: #f3f4f6;
+    }
+}
+.form-btm-content p a {
+    color: $purple-color !important;
+}
+
+.sign-up .form-group .field-icon.toggle-password {
+    color: #31353b;
+}
+
+.error-password .field-icon.toggle-password {
+    margin-top: -30px;
+}
+.error-password {
+    &.error-password-signup {
+        .error-msg {
+            color: #31353b;
+        }
+    }
+    &.error-password-true {
+        .error-msg {
+            color: #eb4141;
+        }
+    }
+}

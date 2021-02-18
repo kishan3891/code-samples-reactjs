@@ -1,0 +1,182 @@
+.home-page {
+    h2 {
+        font-size: 1.5em;
+    }
+
+    section {
+        margin: 3em auto;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &.centered {
+            text-align: center;
+        }
+    }
+
+    form {
+        margin-bottom: 1em;
+
+        input {
+            outline: none;
+            border-bottom: 1px dotted #999;
+        }
+    }
+
+    span.at-prefix {
+        color: black;
+        margin-left: 0.4em;
+    }
+}
+
+.fc-list-empty {
+    background: #f3f4f6 !important;
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    color: #989795;
+}
+
+.list-view-backup {
+    cursor: pointer;
+    ul {
+        background: #a2c2cf;
+        border-radius: 5px !important;
+    }
+    &:hover ul {
+        background: #5a899c !important;
+    }
+}
+
+tbody {
+    .couns-schedule-row {
+        padding: 4px;
+
+        ul {
+            width: 100%;
+            float: none;
+            width: 100%;
+            margin: 0;
+        }
+
+        &:before {
+            display: none;
+        }
+    }
+}
+
+.fc-view-container *,
+.fc-view-container *:before,
+.fc-view-container *:after {
+    box-sizing: border-box;
+}
+
+.calenderLoader {
+    .ant-spin-container {
+        min-width: unset !important;
+        max-width: unset !important;
+    }
+
+    .ant-spin-container table {
+        border: none;
+        border-radius: 0;
+    }
+
+    .ant-spin-container table tr th {
+        border-right: inherit;
+        font-size: inherit;
+        color: inherit;
+        font-family: inherit;
+        background: inherit;
+        padding: inherit;
+    }
+    /* .fc-widget-content {
+        padding-bottom: 4px !important;
+    } */
+
+    .ant-spin-container table tr td {
+        border-right: inherit;
+        font-size: inherit;
+        color: inherit;
+        font-family: inherit;
+        background: inherit !important;
+        padding: inherit;
+        padding-left: 2px;
+        padding-right: 2px;
+        font-weight: inherit;
+    }
+}
+
+.calenderLoader .ant-spin-container .fc-list-view table {
+    border-top: 1px solid #d9d9d9 !important;
+}
+
+.calenderLoader .ant-spin-container .fc-list-view table tr {
+    padding: 0px !important;
+}
+.fc-time-grid-empty-view {
+    display: none;
+}
+.fc-view.fc-timeGridWeek-view.fc-timeGrid-view.fc-empty-view:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #f3f4f6;
+    z-index: -1;
+}
+.admin-schedule .fc-empty-view .fc-body {
+    background: transparent;
+}
+.fc-timeGridWeek-view.fc-empty-view {
+    .fc-slats table tbody tr td:nth-child(2) {
+        visibility: hidden;
+    }
+    .fc-time-grid-empty-view {
+        position: absolute;
+        top: calc(50% + 21px);
+        left: 50%;
+        transform: translate(-50%, -50%);
+        //z-index: 10;
+        text-align: center;
+        color: #989795;
+        font-weight: 500;
+        line-height: 140%;
+        font-size: 14px;
+        display: block;
+        /* width: 375px;
+        height: 200px; */
+        img {
+            opacity: 0.2;
+            display: block;
+            margin: 0 auto 17px;
+        }
+        /* &::before {
+            content: "";
+            position: absolute;
+            background-size: 100px 100px;
+            width: 100%;
+            height: 100%;
+            background: url(../../images/finder.svg) no-repeat top center;
+            opacity: 0.2;
+            top: -100px;
+        } */
+        /* &::after {
+            content: "No shifts scheduled. You'll recieve an email when shifts become available.";
+            font-family: Red Hat Display, serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 140%;
+            text-align: center;
+            color: #989795;
+            padding-left: 16px;
+        } */
+    }
+}
+.fc-widget-content-empty {
+    display: none !important;
+}

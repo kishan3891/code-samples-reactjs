@@ -1,0 +1,275 @@
+/*!
+ * Extends on sanitize.css
+ */
+
+html {
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  font-size: 10px;
+}
+
+body {
+  height: 100%;
+
+  background-color: var(--swatchBody);
+
+  color: var(--swatchFont);
+  font-family: var(--fontPrimary);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url(./fonts/GothamBold.woff);
+  font-display: swap;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url(./fonts/Gotham-Book.otf);
+  font-display: swap;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url(./fonts/GothamLight.woff);
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Caslon;
+  src: url(./fonts/ACaslonPro-Regular.woff);
+  font-display: swap;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+dl,
+figure,
+address {
+  margin: 1em 0 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+h6 {
+  font-family: var(--fontPrimary);
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3.8rem;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  padding: 50px 0;
+}
+h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+h3 {
+  font-family: var(--fontSecondary);
+  padding: var(--heightGutter) 0;
+  font-size: 3.4rem;
+  line-height: 4.2rem;
+}
+
+h4 {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+p strong {
+  font-weight: 700;
+}
+
+p a {
+  font-size: inherit;
+}
+
+li a {
+  font-size: inherit;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dd {
+  margin-bottom: 0.5rem;
+  margin-left: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: var(--fontPrimary);
+  font-weight: 100;
+  cursor: pointer;
+}
+
+a:not([class]) {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+  -webkit-tap-highlight-color: transparent;
+}
+
+hr {
+  border-right: 0;
+  border-left: 0;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+table {
+  width: 100%;
+  display: block;
+}
+
+tr {
+  border: 1px solid #d0d0d0;
+}
+
+td {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #d0d0d0;
+}
+
+th {
+  padding: 10px;
+}
+
+th p {
+  font-weight: 700;
+}
+
+blockquote {
+  margin: 1em;
+
+  font-size: 1.2em;
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+button {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+
+  border: 0;
+  outline: 0;
+
+  background: none;
+
+  line-height: 1;
+  vertical-align: middle;
+  white-space: normal;
+
+  user-select: none;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+
+  border: 0;
+}
+
+legend {
+  margin-bottom: 0.5rem;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type='search'] {
+  outline-offset: -2px;
+  -webkit-appearance: none;
+}
+
+[type='search']::-webkit-search-cancel-button,
+[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@media (--mobile) {
+  html {
+    font-size: 7px;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  a {
+    font-size: 2rem;
+  }
+}

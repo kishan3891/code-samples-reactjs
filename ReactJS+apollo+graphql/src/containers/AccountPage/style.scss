@@ -1,0 +1,165 @@
+@import "../App/variables";
+.payment-toggle {
+    width: 100%;
+    height: 69px;
+    background: #e5943b;
+}
+
+.payment-button {
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+    margin: -1px 10px 8px -42px;
+    width: 89%;
+}
+
+.payment-slide-text {
+    font-size: 14px;
+    font-family: "Red Hat Display";
+    padding: 16px 0px 0px 16px;
+    color: #ffffff;
+    float: left;
+}
+
+.payment-slide-subtitle {
+    font-size: 12px;
+}
+
+.payment-btn-section {
+    text-align: right;
+    float: right;
+    padding-top: 16px;
+    padding-right: 16px;
+
+    .white-btn {
+        border: 1px solid #d9d9d9 !important;
+        box-sizing: border-box;
+        border-radius: 5px;
+        color: #31353b;
+        background: #f3f4f6;
+        font-size: 14px;
+    }
+}
+
+.container {
+    max-width: 830px;
+    margin-top: 30px;
+}
+
+.dash-middle-content {
+    padding: 0;
+    background: #fff9ef;
+}
+
+.ant-tabs-nav-wrap {
+    background-color: #fff !important;
+}
+
+.right-top-header.space-rem {
+    border: 0px !important;
+}
+
+.account-page .ant-tabs-nav-list {
+    max-width: 800px !important;
+    margin: 0 auto !important;
+}
+
+.dash-middle-content.account-page {
+    .ant-tabs-content-holder {
+        overflow-y: auto;
+        height: calc(100vh - 161px);
+        padding-bottom: 80px;
+        @media only screen and (max-width: 1024px) {
+            height: calc(100vh - 151px);
+        }
+        @media only screen and (max-width: 991px) {
+            height: calc(100vh - 141px);
+        }
+    }
+    .container {
+        margin-top: 40px;
+    }
+    .ant-tabs {
+        padding: 0;
+        .ant-tabs-nav {
+            margin-bottom: 0 !important;
+        }
+    }
+}
+
+.head-user-right h5 {
+    color: #31353b;
+}
+
+.header-user-profile {
+    figure {
+        margin: 0;
+    }
+}
+
+.ant-tabs-nav {
+    .ant-tabs-tab {
+        color: #31353b;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 12px 0;
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .ant-tabs-tab-active,
+    .ant-tabs-tab:active,
+    .ant-tabs-tab:hover {
+        color: $purple-color;
+    }
+
+    .ant-tabs-ink-bar {
+        background: $purple-color;
+    }
+}
+
+.ant-tabs {
+    padding-bottom: 80px;
+}
+
+.accountEarningsLoader {
+    .ant-spin-container {
+        min-width: unset !important;
+        max-width: unset !important;
+    }
+
+    .ant-spin-container table {
+        border: none;
+        border-radius: 0;
+    }
+
+    .ant-spin-container table tr th {
+        border-right: inherit;
+        font-size: inherit;
+        color: inherit;
+        font-family: inherit;
+        background: inherit !important;
+        padding: inherit;
+    }
+
+    .ant-spin-container table tr td {
+        border-right: inherit;
+        font-size: inherit;
+        color: inherit;
+        font-family: inherit;
+        background: inherit !important;
+        padding: inherit;
+        font-weight: inherit;
+    }
+}
+
+.calenderLoader .ant-spin-container .fc-list-view table {
+    border-top: 1px solid #d9d9d9 !important;
+}
+
+.calenderLoader .ant-spin-container .fc-list-view table tr {
+    padding: 0px !important;
+}

@@ -1,0 +1,72 @@
+{
+    "c1": 
+        {
+        "color": "Sandy",
+        "img": "Sandy"
+        },
+    "c2": 
+        {
+        "color": "Moss Green",
+        "img": "Moss Green"
+        },
+    "c3": 
+        {
+        "color": "Coffee",
+        "img": "Coffee"
+        },
+    "i1": 
+        {
+        "color": "Sandy",
+        "img": "boatSofa1"
+        },
+    "i2":
+        {
+        "color": "Sandy",
+        "img": "boatSofa2"
+        },
+    "c1i1":
+        {
+        "color": "Sandy",
+        "img": "boatSofa1"
+        },
+    "c2i1":
+        {
+        "color": "Moss Green",
+        "img": "boatSofa1"
+        },
+    "c3i1":
+        {
+        "color": "Coffee",
+        "img": "boatSofa1"
+        },
+    "c1i2":
+        {
+        "color": "Sandy",
+        "img": "boatSofa2"
+        },
+    "c2i2":
+        {
+        "color": "Moss Green",
+        "img": "boatSofa2"
+        },
+    "c3i2":
+        {
+        "color": "Coffee",
+        "img": "boatSofa2"
+        },
+    "c1i1i2":
+        {
+        "color": "Sandy",
+        "img": "boatSofa1"
+        },
+    "c2i1i2":
+        {
+        "color": "Moss Green",
+        "img": "boatSofa1"
+        },
+    "c3i1i2":
+        {
+        "color": "Coffee",
+        "img": "boatSofa1"
+        }
+}

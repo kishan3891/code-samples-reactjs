@@ -1,0 +1,78 @@
+@import "../../../containers/App/variables";
+.review-card {
+    margin-bottom: 16px !important;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    &:last-child {
+        margin-bottom: 0 !important;
+    }
+}
+
+.icon-positive-circle {
+    background: #a2c2cf;
+    padding: 10px;
+    border-radius: 100%;
+    color: #fff;
+}
+
+.icon-negative-circle {
+    background: #e5943b;
+    padding: 10px;
+    border-radius: 100%;
+    color: #fff;
+}
+
+.review-per {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+    margin-left: 12px;
+    margin-right: 7px;
+}
+
+.ant-progress-bg {
+    background-color: #a2c2cf;
+}
+
+.ant-progress-inner {
+    background-color: #e5943b;
+}
+
+.review-progress {
+    margin-top: 15px;
+}
+.review-progressbar {
+    display: block;
+}
+.ant-tabs {
+    padding-bottom: 7px;
+}
+.earnings-txt {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+.counslor-list {
+    .ant-modal {
+        .ant-modal-close-x {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: $purple-color;
+            line-height: 34px;
+            color: #fff;
+            outline: none;
+            margin-top: 20px;
+            margin-right: 21px;
+        }
+    }
+    .right-btn {
+        bottom: -36px;
+    }
+}

@@ -1,0 +1,114 @@
+@import "../App/variables";
+.app-left-tour {
+    width: 100% !important;
+    background-color: $purple-color;
+    background-image: url(../../images/login-left-bg.png);
+    background-repeat: no-repeat;
+    background-size: 91%;
+    background-position: top right;
+}
+.account-step {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-44%, -50%);
+    text-align: center;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 140%;
+    align-items: center;
+    color: #ffffff;
+    span {
+        margin-bottom: 10px;
+        color: #ffffff;
+        font-size: 14px;
+        font-family: "Red Hat Display", sans-serif;
+        font-weight: 500;
+    }
+}
+.user-name-left {
+    position: absolute;
+    left: 64px;
+    bottom: 65px !important;
+    .tour-logo {
+        width: 32px;
+        height: 32px;
+        margin-bottom: 8px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    font {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #ffffff;
+        display: block;
+        text-align: center;
+        line-height: 32px;
+        color: $purple-color;
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    span {
+        font-size: 16px;
+        color: #ffffff;
+        font-family: "Literata", serif;
+        margin-bottom: 8px;
+        display: block;
+    }
+    p {
+        font-size: 14px;
+        font-family: "Red Hat Display", sans-serif;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+.tour-welcome {
+    color: #d9d9d9;
+    font-size: 14px;
+    line-height: 140%;
+}
+.tour-page {
+    width: 100%;
+    background-size: 38%;
+    .welcome-text {
+        font-weight: 600;
+    }
+    .account-step {
+        span {
+            font-family: "Literata", serif;
+            font-size: 24px;
+            margin-bottom: 4px;
+            display: block;
+            margin-left: 10px;
+            line-height: 140%;
+        }
+        p {
+            margin-bottom: 25px;
+            margin-left: 10px;
+        }
+        a {
+            font-weight: bold;
+            font-size: 12px;
+            background: #ffffff;
+            border-radius: 5px;
+            color: $purple-color;
+            padding: 8px 16px;
+            line-height: 16px;
+            &:hover {
+                color: $purple-color;
+            }
+        }
+    }
+}
+.user-name-lefth1 h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+}

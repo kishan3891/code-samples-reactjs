@@ -1,0 +1,160 @@
+@import "variables";
+
+@font-face {
+    font-family: "#{$icomoon-font-family}";
+    src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bsq6os");
+    src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bsq6os#iefix")
+            format("embedded-opentype"),
+        url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?bsq6os")
+            format("truetype"),
+        url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?bsq6os")
+            format("woff"),
+        url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?bsq6os##{$icomoon-font-family}")
+            format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "#{$icomoon-font-family}" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-notification .path1 {
+    &:before {
+        content: $icon-notification-path1;
+        color: rgb(90, 92, 98);
+    }
+}
+
+.icon-notification .path2 {
+    &:before {
+        content: $icon-notification-path2;
+        margin-left: -1em;
+        color: rgb(90, 92, 98);
+    }
+}
+
+.icon-notification .path3 {
+    &:before {
+        content: $icon-notification-path3;
+        margin-left: -1em;
+        color: rgb(90, 92, 98);
+    }
+}
+
+.has-unread-message .icon-notification .path4 {
+    &:before {
+        content: $icon-notification-path4;
+        margin-left: -1em;
+        color: rgb(88, 0, 170);
+    }
+}
+
+.icon-positive {
+    &:before {
+        content: $icon-positive;
+    }
+}
+
+.icon-negative {
+    &:before {
+        content: $icon-negative;
+    }
+}
+
+.icon-Angle-Down {
+    &:before {
+        content: $icon-Angle-Down;
+    }
+}
+
+.icon-Angle-Left {
+    &:before {
+        content: $icon-Angle-Left;
+    }
+}
+
+.icon-Angle-Right {
+    &:before {
+        content: $icon-Angle-Right;
+    }
+}
+
+.icon-Angle-Up {
+    &:before {
+        content: $icon-Angle-Up;
+    }
+}
+
+.icon-Dashboard {
+    &:before {
+        content: $icon-Dashboard;
+    }
+}
+
+.icon-Dashboard1x {
+    &:before {
+        content: $icon-Dashboard1x;
+    }
+}
+
+.icon-Dashboard2x {
+    &:before {
+        content: $icon-Dashboard2x;
+    }
+}
+
+.icon-Dashboard3x {
+    &:before {
+        content: $icon-Dashboard3x;
+    }
+}
+
+.icon-Eye {
+    &:before {
+        content: $icon-Eye;
+    }
+}
+
+.icon-Eye-Slash {
+    &:before {
+        content: $icon-Eye-Slash;
+    }
+}
+
+.icon-Rectangle2x {
+    &:before {
+        content: $icon-Rectangle2x;
+    }
+}
+
+.icon-Schedule {
+    &:before {
+        content: $icon-Schedule;
+    }
+}
+
+.icon-User {
+    &:before {
+        content: $icon-User;
+    }
+}
+
+.icon-school {
+    &:before {
+        content: $icon-school;
+    }
+}
